@@ -23,7 +23,7 @@ public class DoctorController {
 	@Autowired
 	private DoctorService<?> doctorService;
 
-	@GetMapping("/")
+	@GetMapping("/all")
 	public List<Doctor> getAllDoctors() {
 		return doctorService.getAllDoctors();
 	}

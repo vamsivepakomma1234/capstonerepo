@@ -8,7 +8,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.wipro.appointmentbooking.entity.Appointment;
-import com.wipro.appointmentbooking.entity.Patient;
+
 import com.wipro.appointmentbooking.repository.AppointmentRepository;
 
 @Service
